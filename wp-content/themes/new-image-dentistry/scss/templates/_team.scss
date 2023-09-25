@@ -1,0 +1,27 @@
+.page-template-template-team {
+  .default__fon {
+    background-position-y: 50%;
+
+    h1 {
+      &::after {
+        width: 466px;
+      }
+    }
+
+    .position-center {
+      top: 59%;
+    }
+  }
+}
+
+.content-team {
+  h2 {
+    .underline {
+      font-size: 40px;
+    }
+  }
+
+  p {
+    font-size: 20px;
+  }
+}

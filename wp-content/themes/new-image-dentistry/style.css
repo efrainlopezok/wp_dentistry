@@ -1,0 +1,52 @@
+/**
+ * Theme Name: New Image Dentistry
+ * Author: <a href="https://lpcreativeco.com">LP Creative Co.</a>
+ * Version: 99.0
+**/
+.content p,
+.section__content p,
+.content ul:not(.list-image) li {
+    font-size: 20px;
+}
+.section__testimonials .cell p{
+	font-size: 16px;
+}
+.background--section .cell .button {
+	margin: 35px 8px 0;
+}
+.wpcf7-form .message{	
+	margin-top: 0;
+}
+.your-message textarea[rows]{
+	 height: 313px;
+}
+@media (max-width: 1024px) {
+	.content p,
+	.section__content p,
+	.content ul:not(.list-image) li {
+	    font-size: 16px;
+	}
+}
+@media (max-width: 767px) {
+    .dentists__slider h3{
+        font-size: 30px;
+    }
+    .dentist__block {
+        padding-right: 25px;
+    	padding-left: 25px;
+	}
+	.dentists__slider img{
+		max-width: 215px;
+	}
+	.section__dentists .grid-margin-x>.small-12{
+		width: 100%;
+	}
+}
+
+@media (max-width: 350px) {
+	.grid-container,
+    .dentist__block {
+        padding-right: 15px;
+    	padding-left: 15px;
+	}
+}

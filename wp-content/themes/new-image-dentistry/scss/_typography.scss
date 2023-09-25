@@ -1,0 +1,225 @@
+/* ---------------------------------------
+	Typography
+--------------------------------------- */
+
+body {
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  a {
+    color: inherit;
+  }
+}
+
+h1, .h1 {
+  /*basic heading styles*/
+}
+
+h2, .h2 {
+  /*basic heading styles*/
+}
+
+h3, .h3 {
+  /*basic heading styles*/
+}
+
+h4, .h4 {
+  /*basic heading styles*/
+}
+
+h5, .h5 {
+  /*basic heading styles*/
+}
+
+h6, .h6 {
+  /*basic heading styles*/
+}
+
+p {
+  /*basic paragraph styles*/
+  &:empty {
+    display: none;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+ul {
+  /*basic list styles*/
+  font-size: inherit;
+
+  li {
+    /*basic list-item styles*/
+  }
+}
+
+address {
+  font-style: normal;
+  margin-bottom: $global-margin;
+}
+
+a {
+  color: $main-color;
+  transition: all 0.2s ease-in-out;
+
+  &:hover, &:focus {
+    /*basic hover and focus effects*/
+    color: darken($main-color, 20);
+  }
+}
+
+label {
+  line-height: 35px;
+}
+
+/* ---------------------------------------
+	Forms/Inputs
+--------------------------------------- */
+
+.no-outline {
+  button, a, [tabindex] {
+    outline: none;
+  }
+}
+
+/* Placeholder styling */
+
+input, textarea {
+  background-color: $light-gray;
+  border: none;
+
+  &::placeholder {
+    opacity: 1;
+  }
+}
+
+/* Input Styling */
+
+[type=color],
+[type=date],
+[type=datetime-local],
+[type=datetime],
+[type=email],
+[type=month],
+[type=number],
+[type=password],
+[type=search],
+[type=tel],
+[type=text],
+[type=time],
+[type=url],
+[type=week],
+textarea,
+select,
+.select-styled {
+  $height: ($input-font-size * unitless-calc($input-line-height)) + (get-side($input-padding, 'top') + get-side($input-padding, 'bottom')) + rem-calc(get-border-value($input-border, 'width') * 8);
+  /* STYLES GO THERE */
+  height: $height;
+  border: none;
+  background-color: $light-gray;
+}
+
+textarea[rows] {
+  /*Styles for TextArea*/
+  height: 270px;
+  max-width: 100%;
+  resize: none;
+}
+
+[type=number] {
+  -moz-appearance: textfield;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+[type=checkbox],
+[type=file],
+[type=radio] {
+  margin-bottom: 0;
+}
+
+button, .button, input[type='submit'], input[type='reset'], input[type='button'] {
+  border-width: $button-hollow-border-width;
+  transition: all 0.2s ease-in-out;
+
+  &:hover, &:focus {
+
+  }
+}
+
+/* Button additional styles */
+
+.button {
+  &:hover,
+  &:focus {
+    /*basic hover and focus effects*/
+  }
+}
+
+.wpcf7-submit.button.primary-button {
+  margin-top: 25px;
+  padding: 0 31px;
+  background-color: $green;
+  color: $white;
+  font-size: 20px;
+  font-family: $font;
+  line-height: 50px;
+
+  &.icon:before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: $white;
+    font-size: 16px;
+    margin-right: 9px;
+  }
+
+  &.icon::after {
+    content: unset;
+    margin-left: 0;
+  }
+
+  &.icon:hover::after {
+    content: unset;
+    margin-right: 0;
+  }
+
+  &:focus {
+    background-color: $green;
+  }
+}
+
+
+.wpcf7-form {
+  .cell {
+    align-content: space-between;
+    display: flex;
+    flex-flow: column;
+    max-width: 600px;
+
+    &:first-child {
+      justify-content: space-between;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+div.wpcf7-mail-sent-ok,
+div.wpcf7-validation-errors {
+  display: none !important;
+}
+
+label.message {
+  margin-top: 21px;
+}

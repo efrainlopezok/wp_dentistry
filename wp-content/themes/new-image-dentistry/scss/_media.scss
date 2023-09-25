@@ -1,0 +1,873 @@
+@media (max-width: 1450px) {
+  .grid-container {
+    padding-right: 34px;
+    padding-left: 34px;
+
+    &:not(.full) .grid-container {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+  #home-slider {
+    .pagination-slick {
+      width: 93%;
+      right: 0;
+      margin: auto;
+      top: 27%;
+    }
+
+    .slider-caption {
+      top: 39%;
+
+      .cell {
+        max-width: 86%;
+        margin: auto;
+      }
+    }
+  }
+
+  .default__fon h1 {
+    margin-left: 34px;
+  }
+
+  .background--section .cell .button {
+    margin: 35px 3px 0;
+    font-size: 19px;
+  }
+
+  .dentists__slider {
+    .dentists__content {
+      margin-right: 50px;
+    }
+  }
+
+  .header-menu.menu li > a {
+    font-size: 15px;
+  }
+
+  .background--section .cell p {
+    br {
+      display: none;
+    }
+  }
+
+  .footer .cell__request .button {
+    font-size: 19px;
+  }
+  .about__services .cell h3 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1330px) {
+  .about__services .cell h3 {
+    font-size: 27px;
+  }
+
+  .grid-container.slider-caption {
+    padding: 0 50px;
+  }
+
+  #home-slider {
+    .slider-caption .cell {
+      max-width: 91%;
+    }
+  }
+
+  .background--section .cell .buttons-group {
+    flex-flow: column;
+    align-items: center;
+  }
+
+}
+
+
+@media (max-width: 1200px) {
+  header .header__bottom .cell__navigation ul li {
+    margin-right: 0;
+  }
+
+  .background--section .cell {
+    padding: 40px 37px 30px;
+    margin-bottom: 50px;
+  }
+
+  .about__services .cell h3 {
+    font-size: 23px;
+  }
+
+  .default__fon h1 {
+    left: 34px;
+  }
+
+  .reveal-overlay .reveal {
+    top: 14% !important;
+  }
+
+  .footer .cell__request .button {
+    font-size: 15px;
+  }
+
+  .section__services .service .service__img {
+    width: 33.33333%;
+    max-width: unset;
+
+    svg {
+      width: 100%;
+    }
+  }
+  .location h3 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  #home-slider .slick-slide {
+    height: 595px;
+
+    .slider-caption .cell {
+      max-width: 100%;
+    }
+  }
+
+  .default__fon .grid-container {
+    padding: 0;
+  }
+
+  header {
+    .header__bottom {
+      top: 0;
+      height: 50px;
+      padding: 15px 0;
+      position: absolute;
+    }
+
+    .wrapper {
+      padding-top: 50px;
+    }
+  }
+
+  .transform-top {
+    margin-top: 0;
+  }
+
+  h1,
+  .h1 {
+    font-size: 32px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 32px;
+  }
+
+  #home-slider .pagination-slick {
+    display: none;
+  }
+
+  .logo img {
+    max-width: 180px;
+  }
+
+  .location {
+    margin: 0 auto 50px;
+  }
+
+  .section__general p {
+    font-size: 16px;
+  }
+
+  .primary-button.button,
+  .button {
+    font-size: 18px;
+  }
+
+  .section__services .service .service__item h4 {
+    font-size: 20px;
+  }
+
+  .background--section {
+    padding-bottom: 59px;
+    margin-top: 0;
+    padding-top: 50px;
+
+    & > div {
+      margin-top: 0;
+    }
+  }
+
+  .section__testimonials {
+    margin-top: 72px;
+
+    .slick__testimonial {
+      margin-top: 30px;
+      margin-bottom: 70px;
+    }
+
+    h2 {
+      margin-left: 0;
+    }
+  }
+
+  .section__location {
+    padding: 60px 0 210px;
+  }
+
+  .location .location__content {
+    padding: 45px 39px 28px 30px;
+  }
+
+  .section__request {
+    padding: 107px 0;
+
+    p {
+      font-size: 32px;
+      margin-bottom: 34px;
+    }
+
+    .button {
+      font-size: 20px;
+    }
+  }
+
+  .default__fon h1 {
+    font-size: 42px;
+  }
+
+  .subtitle h2 {
+    font-size: 36px;
+  }
+
+  .about-page .subtitle h2 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .position-center {
+    bottom: 20px;
+    transform: translate(50%, 8%);
+  }
+
+  .default__fon {
+    min-height: 450px;
+  }
+
+  .dentist {
+    margin: 0 auto 50px;
+  }
+
+  .about__services .cell {
+    min-height: unset;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      display: block;
+      text-align: left;
+      left: unset;
+      top: unset;
+      transform: unset;
+      position: relative;
+      font-size: 32px;
+
+
+    }
+
+    img {
+      max-width: 20%;
+      width: auto;
+    }
+
+    &:nth-child(odd) {
+      h3 {
+        margin-left: 20px;
+      }
+    }
+
+    &:nth-child(even) a {
+      flex-flow: row-reverse;
+      align-self: unset;
+    }
+  }
+
+  .gallery__content {
+    margin-top: 100px;
+    padding-left: 0 !important;
+  }
+  .section__content h3 {
+    font-size: 24px;
+  }
+  .procedure-page .subtitle h2 {
+    font-size: 36px;
+
+    br {
+      display: none;
+    }
+  }
+  .section__cta {
+    padding: 75px 0 65px;
+
+    .button {
+      margin-bottom: 20px;
+    }
+
+    .cta__content {
+      padding: 19px 0 70px;
+    }
+  }
+  .section__cta.center {
+    padding: 73px 0 90px;
+
+    .button {
+      margin-bottom: 20px;
+    }
+  }
+
+  .grid-container.menu-grid-container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .default__fon h1 {
+    margin-left: 0;
+  }
+  .header-menu.menu li > a {
+    font-size: 20px;
+  }
+
+  .header-menu.menu .submenu li a {
+    font-size: 16px;
+  }
+  .header-menu.menu > li {
+    border-bottom: 1px solid #CCC;
+  }
+  #home-slider .slider-caption {
+    h2 {
+      font-size: 42px;
+      line-height: 47px;
+      margin-bottom: 17px;
+
+      br {
+        display: none;
+      }
+    }
+
+    p {
+      margin-bottom: 17px;
+    }
+  }
+
+  .grid-container.slider-caption {
+    padding: 0 34px;
+  }
+
+  h1,
+  .h1 {
+    line-height: 36px;
+  }
+
+  .footer__top .cell.cell__procedures {
+    padding-left: 0;
+  }
+
+  .footer__top .cell.cell__locations {
+    padding-left: 25px;
+  }
+
+  .footer-menu li {
+    a {
+      padding: 5px 10px;
+    }
+
+    button {
+      padding: 5px 10px;
+    }
+  }
+
+  .about__content h2 {
+    line-height: 36px;
+  }
+
+  .default__fon h1 {
+    font-size: 42px;
+    line-height: 47px;
+  }
+
+  .section__services .service {
+    padding: 3rem 2rem;
+  }
+
+  .about__services .grid-x {
+    margin: auto;
+    width: 80%;
+  }
+
+  .main-content .section__location{
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .dentists__slider .cell {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  #home-slider .slider-caption p br {
+    display: none;
+  }
+  .nav__bottom--cell button,
+  .nav__bottom--cell {
+    line-height: 14px;
+  }
+}
+
+@include breakpoint(medium down) {
+  .location {
+    max-height: unset;
+
+    &:not(.open) {
+      display: none;
+    }
+  }
+  .dentists__slider {
+    img {
+      max-width: 70%;
+      margin: 0 auto 34px;
+    }
+
+    .button {
+      display: none;
+    }
+  }
+
+}
+
+@media (max-width: 767px) {
+  #home-slider .slider-caption {
+    transform: translate(50%, -31%);
+    padding: 0 26px 0 29px;
+
+    h2 {
+      font-size: 42px;
+
+      br {
+        display: none;
+      }
+    }
+
+    .button {
+      margin-bottom: 18px;
+    }
+
+    p {
+      font-size: 16px;
+
+    }
+  }
+  .section__general .button {
+    margin-top: 15px;
+  }
+  .section__general {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+
+    h1 {
+      margin-bottom: 30px;
+    }
+  }
+  .primary-button.button {
+    font-size: 18px;
+  }
+  .dentist__block .slick-prev,
+  .dentist__block .slick-next {
+    top: 36%;
+  }
+  .section__testimonials .slick__testimonial .slick-slide {
+    padding: 0;
+  }
+  .default__fon {
+    min-height: 251px;
+    background-size: cover;
+  }
+  .subtitle {
+    padding-top: 59px;
+    margin-bottom: 51px;
+    padding-bottom: 0;
+
+    .grid-margin-x {
+      margin: 0;
+    }
+  }
+  .about__content {
+    h2 {
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 25px;
+    }
+
+    .about__text {
+      padding-left: 0 !important;
+    }
+  }
+  .background--section {
+    .grid-x {
+      margin: 0;
+    }
+
+    .cell {
+      width: 100%;
+      padding: 39px 18px 30px;
+      margin-right: 0;
+      margin-left: 0;
+
+      h4 {
+        font-size: 26px;
+        min-height: unset;
+      }
+
+      img {
+        max-width: 36px;
+      }
+    }
+  }
+  .button {
+    &::after {
+      content: unset;
+      margin-left: 0;
+    }
+  }
+  .section__services .service .service__item h4 {
+    br {
+      display: none;
+    }
+  }
+  .dentist__block {
+    margin-top: 41px;
+  }
+  .dentists__slider .dentists__content {
+    margin: 0;
+  }
+  .contact-page .subtitle {
+    padding-top: 59px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+  }
+  .contact-page .section__location {
+    margin-top: 0;
+  }
+  .default-title {
+    &.half::after {
+      width: 100%;
+    }
+
+    &::after {
+      max-width: 91px;
+    }
+  }
+  .section__content h2 {
+    line-height: 36px;
+  }
+
+  .reveal-overlay .reveal {
+    h2 {
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      font-size: 28px;
+      line-height: 32px;
+    }
+
+    input,
+    textarea {
+      margin-bottom: 25px;
+    }
+
+    label.message {
+      margin-top: 0;
+    }
+  }
+
+  .section__feedback {
+    input,
+    textarea {
+      margin-bottom: 25px;
+    }
+
+    label.message {
+      margin-top: 0;
+    }
+  }
+  .about__services .grid-x {
+    width: 100%;
+  }
+  .main-content .about__dentist {
+    padding-top: 15%;
+  }
+}
+
+@media (max-width: 640px) {
+  .section__services .service {
+    padding: 0;
+    margin-bottom: 20px;
+    width: 100%;
+
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(4),
+    &:nth-child(3) {
+      border: none;
+    }
+
+    &:nth-child(1) {
+      order: 1;
+    }
+
+    &:nth-child(2) {
+      order: 3;
+    }
+
+    &:nth-child(3) {
+      order: 2;
+    }
+
+    &:nth-child(4) {
+      order: 3;
+    }
+
+    &:nth-child(3) .service__item,
+    &:nth-child(4) .service__item {
+      flex-flow: row-reverse;
+      justify-content: space-between;
+    }
+  }
+  .location {
+    max-width: 300px;
+
+    h3 {
+      font-size: 26px;
+      margin-bottom: 13px;
+    }
+  }
+  .footer {
+    padding-bottom: 47px;
+
+    .cell__locations li {
+      max-width: unset;
+    }
+  }
+  .footer__bottom {
+    margin-top: 50px;
+
+    .footer-menu {
+      margin-bottom: 48px;
+
+      li {
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .footer__top .cell {
+    padding-left: 0;
+
+    &.cell__locations {
+      padding-left: 0;
+    }
+  }
+  .cell__request img {
+    max-width: 226px;
+  }
+  .dentist {
+    max-height: unset;
+    max-width: 307px;
+
+    .dentist__image {
+      min-height: 209px;
+      width: 100%;
+      background-position-y: 10%;
+
+      &::before {
+        background: unset;
+      }
+    }
+
+    .dentist__content {
+      padding-bottom: 36px;
+    }
+
+    h3 {
+      font-size: 26px;
+      margin-bottom: 16px;
+    }
+  }
+  .about__services .cell {
+    h3 {
+      font-size: 20px;
+      white-space: unset;
+      line-height: 22px;
+    }
+
+    svg {
+      max-width: 80px;
+    }
+  }
+  .cell__locations {
+    margin-top: 50px;
+  }
+  .cell__procedures {
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+  .section__accordion .accordion-menu {
+    .accordion-title {
+      padding: 25px 32px 25px 19px;
+      font-size: 16px;
+    }
+
+    .accordion-content {
+      padding: 12px 19px 50px;
+    }
+  }
+  .section__content {
+    padding-bottom: 50px;
+  }
+  .default__fon h1 {
+    transform: translate(0, -78%);
+  }
+  .section__feedback {
+    padding: 50px 0 80px;
+  }
+  input[type='submit'] {
+    width: 100%;
+  }
+  .section__location .grid-x {
+    flex-flow: column;
+  }
+
+  .reveal-overlay {
+    .reveal {
+      padding: 8%;
+    }
+
+    .close-button {
+      margin-top: -22px;
+      margin-right: -13px;
+    }
+  }
+  .wpcf7-submit {
+    width: 100%;
+  }
+  .dentists__slider .cell {
+    padding: 0;
+  }
+  .dentist__block {
+    margin-bottom: 58px;
+  }
+  .dentists__slider {
+    img {
+      max-width: 178px;
+    }
+
+    .dentists__img {
+      min-height: 208px;
+    }
+
+    .dentists__content {
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    .slick-slide .grid-margin-x {
+      margin: 0;
+    }
+
+    .dentists__img--empty {
+      min-height: 200px;
+      width: 100%;
+    }
+  }
+  .dentist__block .slick-prev,
+  .dentist__block .slick-next {
+    top: 24%;
+  }
+  .section__services .service .service__item h4 {
+    line-height: 24px;
+  }
+
+  .section__request p {
+    line-height: 39px;
+
+    span.underline {
+      &::before {
+        bottom: unset;
+        top: 86%;
+        left: 0;
+      }
+    }
+  }
+  .about__services h2 {
+    margin-bottom: 25px;
+  }
+  .about__services .cell {
+    margin-bottom: 0;
+  }
+  .button.line {
+    margin-bottom: 38px;
+  }
+
+}
+
+@media (max-width: 601px) {
+  header.sticky-header .header__bottom {
+    top: 0 !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer .cell__locations li {
+    max-width: 185px;
+  }
+  .about__services .cell h3 {
+    br {
+      display: block;
+    }
+  }
+
+  .nav__bottom {
+    a,
+    button {
+      font-size: 12px;
+    }
+
+    .nav__bottom--cell {
+      padding: 0 15px;
+    }
+  }
+  h3,
+  p,
+  h2 {
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 370px) {
+  .button {
+    padding: 0 12px;
+  }
+  #home-slider .slider-caption h2 {
+    font-size: 35px;
+    line-height: 39px;
+  }
+}

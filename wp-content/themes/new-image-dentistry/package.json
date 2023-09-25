@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "foundation-sites": "~6.5.3"
+  },
+  "scripts": {
+    "bs": "browser-sync start --config bs-config.js",
+    "watch": "node-sass --watch scss/custom.scss -o css --source-map true --output-style compressed",
+    "build:fn": "node-sass scss/foundation.scss -o css --output-style compressed && postcss --use autoprefixer -r css/foundation.css --no-map",
+    "build:css": "node-sass scss -o css --output-style compressed && postcss --use autoprefixer -r css/*.css --no-map",
+    "prefix": "postcss --use autoprefixer -r css/*.css --no-map"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 9",
+    "android >= 4.4",
+    "ios >= 7"
+  ]
+}

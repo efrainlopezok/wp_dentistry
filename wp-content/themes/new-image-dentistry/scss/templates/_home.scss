@@ -1,0 +1,189 @@
+.transform-top {
+  margin-top: -138px;
+}
+
+
+.section__general {
+  padding: 84px 0 45px;
+  z-index: 10;
+  background: $white;
+  margin-bottom: 60px;
+
+  p {
+    font-size: 20px;
+  }
+
+  .button {
+    margin-top: 40px;
+  }
+}
+
+.section__services {
+  .service {
+    padding: 3rem 4rem;
+    flex-wrap: nowrap;
+
+    &:nth-child(1),
+    &:nth-child(2) {
+      border-bottom: 1px solid $gray;
+    }
+
+    &:nth-child(1),
+    &:nth-child(3) {
+      border-right: 1px solid $gray;
+    }
+
+    .service__item {
+      flex-wrap: nowrap;
+
+      h4 {
+        margin-left: 20px;
+        font-size: 34px;
+        line-height: 39px;
+      }
+
+      &:hover h4 {
+        text-decoration: underline;
+      }
+    }
+
+    .service__img {
+      max-width: 168px;
+      width: 100%;
+    }
+  }
+}
+
+
+.section__dentists {
+  margin-top: 100px;
+}
+
+.dentist__block {
+  position: relative;
+  background-color: $white;
+  z-index: 10;
+  margin-top: 80px;
+}
+
+.dentists__slider {
+  padding: 0 129px 0 80px;
+  background-color: $white;
+  z-index: 5;
+
+  &.grid-container-medium {
+    max-width: 1172px;
+  }
+
+  .slick-prev::before,
+  .slick-next::before {
+    color: $main-color;
+    font-size: 35px;
+  }
+
+  h3 {
+    color: $blue;
+  }
+
+  .button {
+    margin-top: 25px;
+    padding: 0 30px;
+  }
+
+  .dentists__content {
+    margin-left: 60px;
+  }
+}
+
+
+.background--section {
+  position: relative;
+  padding: 220px 0 110px;
+  margin-top: -132px;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba($blue, 0.72);
+  }
+
+  .cell {
+    position: relative;
+    background-color: $white;
+    padding: 90px 87px 80px;
+    text-align: center;
+    max-width: 670px;
+
+    .buttons-group {
+      display: flex;
+      flex-flow: wrap;
+    }
+
+    img {
+      margin-bottom: 30px;
+    }
+
+    h4 {
+      font-size: 42px;
+      color: $green;
+      min-height: 103px;
+    }
+
+    p {
+      color: $main-color;
+    }
+
+    .button {
+      margin: 35px 10px 0;
+    }
+  }
+}
+
+.section__testimonials {
+  margin-top: 145px;
+
+  h2 {
+    margin-left: 70px;
+  }
+
+  .slick__testimonial {
+    margin-top: 80px;
+    padding: 0 40px;
+    margin-bottom: 100px;
+
+    .slick-slide {
+      padding: 0 45px;
+    }
+
+    h3 {
+      color: $blue;
+      margin: 10px 0 23px;
+    }
+
+    p {
+      color: $main-color;
+    }
+
+    span {
+      color: $main-color;
+      font-weight: bold;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+      color: $gray;
+      font-size: 35px;
+    }
+  }
+}
+
+.section__location {
+  padding: 100px 0;
+  background-color: $light-gray;
+}
